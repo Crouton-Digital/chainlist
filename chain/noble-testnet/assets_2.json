@@ -1,0 +1,85 @@
+[
+    {
+        "type": "native",
+        "denom": "ustake",
+        "name": "Stake Testnet",
+        "symbol": "NOBLE",
+        "description": "Noble Testnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/stake.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "uusdc",
+        "name" : "Circle USD Coin Testnet",
+        "symbol": "USDC",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ausdy",
+        "name": "Ondo US Dollar Yield Testnet",
+        "symbol": "USDY",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdy.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "uusyc",
+        "name": "Hashnote US Yield Coin Testnet",
+        "symbol": "USYC",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usyc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ueure",
+        "name": "Monerium EUR emoney Testnet",
+        "symbol": "EURe",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/eure.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "uusdn",
+        "name": "Noble Dollar Testnet",
+        "symbol": "USDN",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdn.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/00D8C59ACB5ACA18B842991E964100FA9A5B30B48F44483963F6614DF2463D8E",
+        "name" : "Zig",
+        "symbol": "ZIG",
+        "description": "The native token of ZigChain-Testnet",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/zig.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "zigchain-testnet>noble-testnet",
+            "client" : {
+                "channel": "channel-704",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-44",
+                "port": "transfer",
+                "chain": "zigchain-testnet",
+                "denom": "uzig"
+            }
+        }
+    }
+]

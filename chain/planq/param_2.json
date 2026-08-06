@@ -1,0 +1,86 @@
+{
+    "chain_id_cosmos" : "planq_7070-2",
+    "chain_id_evm" : "0x1b9e",
+    "chain_name": "Planq",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/planq/resource/chain_planq.png",
+    "staking_asset_denom" : "aplanq",
+    "staking_asset_symbol" : "PLANQ",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/planq/asset/planq.png",
+    "bech_account_prefix" : "plq",
+    "bech_validator_prefix" : "plqvaloper",
+    "origin_genesis_time" : "2022-08-30T11:27:57Z",
+    "api_name" : "planq",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "30000000000aplanq",
+            "35000000000aplanq",
+            "40000000000aplanq"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://planq.api.m.stavr.tech/"
+        },
+        {
+            "provider": "KonsorTech",
+            "url": "https://mainnet-planq-api.konsortech.xyz/"
+        },
+        {
+            "provider": "Roomit",
+            "url": "https://api.planq.roomit.xyz/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "KonsorTech",
+            "url": "https://mainnet-planq-evmrpc.konsortech.xyz"
+        },
+        {
+            "provider": "Safe Block",
+            "url": "https://evm.planq.safeblock.space"
+        }
+    ],
+    "explorer" : {
+        "name": "Roomit",
+        "url": "https://explorer.tendermint.roomit.xyz/planq-mainnet/",
+        "account": "https://explorer.tendermint.roomit.xyz/planq-mainnet/account/${address}",
+        "tx": "https://explorer.tendermint.roomit.xyz/planq-mainnet/tx/${hash}",
+        "proposal": "https://explorer.tendermint.roomit.xyz/planq-mainnet/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://planq.network/",
+        "blog" : "https://medium.com/@planq",
+        "github" : "https://github.com/planq-network/",
+        "twitter" : "https://twitter.com/PlanqFoundation",
+        "coingecko" : "https://www.coingecko.com/en/coins/planq"
+    },
+    "description" : {
+        "ko" : "Planq는 모바일 플랫폼의 사용성을 중시하는 최초의 암호화폐 프로젝트로, 데스크톱 서비스에 대한 의존성에서 한 걸음 벗어났습니다. 사용하기 쉬운 브릿지를 통해 다른 블록체인의 쉬운 접근성과 긴밀한 통합에 집중함으로써 Planq는 모바일 공간에서 Web 3 채택을 다음 단계로 끌어올릴 것입니다.",
+        "en" : "Planq is the very first cryptocurrency project to keep mobile platform usability at heart, taking a step away from dependency on desktop services. By focusing on easy accessibility and close integration of other blockchains via easy to use bridges, Planq will push Web 3 adoption in the mobile space to the next level.",
+        "ja" : "Planq is the very first cryptocurrency project to keep mobile platform usability at heart, taking a step away from dependency on desktop services. By focusing on easy accessibility and close integration of other blockchains via easy to use bridges, Planq will push Web 3 adoption in the mobile space to the next level."
+    }
+}

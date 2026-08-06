@@ -1,10 +1,20 @@
 [
-  "archway",
-  "chihuahua",
-  "juno",
-  "ki-chain",
-  "neutron",
-  "neutron-testnet",
-  "sei",
-  "terra"
+    "cosmos",
+    "archway",
+    "babylon",
+    "chihuahua",
+    "injective",
+    "injective-testnet",
+    "juno",
+    "ki-chain",
+    "neutron",
+    "mantra",
+    "orai-chain",
+    "sei",
+    "shido",
+    "terra",
+    "terra-classic",
+    "xpla",
+    "terra-classic-testnet",
+    "babylon-testnet"
 ]

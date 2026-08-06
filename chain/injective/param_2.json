@@ -1,0 +1,100 @@
+{
+    "chain_id_cosmos" : "injective-1",
+    "chain_id_evm" : "0x6F0",
+    "chain_name": "Injective",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/resource/chain_injective.png",
+    "staking_asset_denom" : "inj",
+    "staking_asset_symbol" : "INJ",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+    "bech_account_prefix" : "inj",
+    "bech_validator_prefix" : "injvaloper",
+    "origin_genesis_time" : "2021-06-30T13:00:00Z",
+    "api_name" : "injective",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
+    "is_support_cw20" : true,
+    "is_support_erc20" : true,
+    "tx_timeout_padding" : 100,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "710000000inj"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Injective Foundation",
+            "url": "sentry.chain.grpc.injective.network:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://injective-rest.publicnode.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://injective-api.polkachu.com/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Injective Foundation",
+            "url": "https://sentry.evm-rpc.injective.network"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://injectiveevm-rpc.polkachu.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/injective/",
+        "account": "https://www.mintscan.io/injective/address/${address}",
+        "tx": "https://www.mintscan.io/injective/tx/${hash}",
+        "proposal": "https://www.mintscan.io/injective/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://injective.com/",
+        "docs": "https://docs.injective.network",
+        "github" : "https://github.com/InjectiveLabs",
+        "blog" : "https://blog.injective.com/",
+        "medium": "https://medium.com/injective-labs",
+        "twitter" : "https://twitter.com/injective",
+        "coingecko" : "https://www.coingecko.com/en/coins/injective-protocol"
+    },
+    "forum": {
+        "main": "https://gov.injective.network",
+        "governance": "https://gov.injective.network/discussions/Governance/"
+    },
+    "description" : {
+        "ko" : "Injective는 DeFi 애플리케이션을 구축하기 위한 개방적이고 상호 운용 가능한 레이어 1 블록체인입니다.",
+        "en" : "Injective is an open, interoperable layer-one blockchain for building DeFi applications.",
+        "ja" : "Injective は、DeFi アプリケーションを構築するためのオープンで相互運用可能なレイヤー 1 ブロックチェーンです。"
+    }
+}

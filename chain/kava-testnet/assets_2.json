@@ -1,0 +1,25 @@
+[
+    {
+        "type": "native",
+        "denom": "ukava",
+        "name" : "Kava Testnet",
+        "symbol": "KAVA",
+        "description": "Kava Testnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava-testnet/asset/kava.png",
+        "coinGeckoId": "",
+        "color": "#9248DB"
+    },
+    {
+        "type": "native",
+        "denom": "akava",
+        "name" : "Kava Testnet",
+        "symbol": "KAVA",
+        "description": "Kava Testnet EVM Fee Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava-testnet/asset/kava.png",
+        "coinGeckoId": "",
+        "color": "#9248DB"
+    }
+]
+

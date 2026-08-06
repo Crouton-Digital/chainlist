@@ -1,0 +1,32 @@
+{
+    "chain_id_cosmos": "coss-1",
+    "chain_name": "COSS",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coss/resource/chain_coss.png",
+    "staking_asset_denom": "ucgas",
+    "staking_asset_symbol": "CGAS",
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.025ucgas"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint": [
+    ],
+    "about" : {
+        "website" : "https://coss.ink",
+        "github" : "https://github.com/coss-inscription",
+        "twitter" : "https://twitter.com/coss_market",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "자산을 주조하고 교환하기 위한 탈중앙화 플랫폼입니다.",
+        "en" : "A decentralized platform for deploying & exchanging of inscription assets.",
+        "ja" : "銘文資産の鋳造と交換のための分散型プラットフォーム。"
+    }
+}

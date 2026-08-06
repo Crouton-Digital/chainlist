@@ -1,0 +1,75 @@
+{
+    "chain_id_cosmos" : "lum-network-1",
+    "chain_name": "Lum",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lum/resource/chain_lum.png",
+    "staking_asset_denom" : "ulum",
+    "staking_asset_symbol" : "LUM",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lum/asset/lum.png",
+    "bech_account_prefix" : "lum",
+    "bech_validator_prefix" : "lumvaloper",
+    "origin_genesis_time" : "2021-12-14T17:00:00Z",
+    "api_name" : "lum",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/880'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.001ulum"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "StakerHouse",
+            "url": "lum-grpc.stakerhouse.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "StakerHouse",
+            "url": "https://lum-rest.stakerhouse.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/lum-network",
+        "account": "https://atomscan.com/lum-network/accounts/${address}",
+        "tx": "https://atomscan.com/lum-network/transactions/${hash}",
+        "proposal": "https://atomscan.com/lum-network/votes/${id}"
+    },
+    "about" : {
+        "website" : "https://lum.network/",
+        "docs": "https://docs.lum.network",
+        "github" : "https://github.com/lum-network",
+        "medium": "https://medium.com/lum-network",
+        "twitter" : "https://twitter.com/lum_network",
+        "coingecko" : "https://www.coingecko.com/en/coins/lum-network"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/LumNetwork"
+    },
+    "description" : {
+        "ko" : "상품평 및 리뷰를 체인에 저장하고, 토큰으로 보상을 지급하는 Cosmos SDK 기반 블록체인.",
+        "en" : "A Cosmos SDK-based blockchain designed for on-chain user reviews and rewards.",
+        "ja" : "商品評価及びビューをチェーンに保存し、トークンで補償を支給するCosmos SDKベースのブロックチェーン。"
+    }
+}

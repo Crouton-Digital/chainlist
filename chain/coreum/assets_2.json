@@ -1,0 +1,119 @@
+[
+    {
+        "type": "native",
+        "denom": "ucore",
+        "name" : "TX",
+        "symbol": "TX",
+        "description": "TX Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/tx.png",
+        "coinGeckoId": "tx",
+        "color": "#89C400"
+    },
+    {
+        "type": "native",
+        "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+        "name" : "Ripple",
+        "symbol": "XRP",
+        "description": "XRP bridged from XRPL",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/xrp.png",
+        "coinGeckoId": "ripple",
+        "color": "#040404"
+    },
+    {
+        "type": "native",
+        "denom": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+        "name" : "Pulsara",
+        "symbol": "SARA",
+        "description": "Pulsara Ecosystem Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/sara.png",
+        "coinGeckoId": "pulsara",
+        "color": "#1739ff"
+    },
+    {
+        "type": "native",
+        "denom": "ulicore-core13gza3msdh8hegqxhgezll9quucsr63s0gp43k274xwt66k4e8pmq5zpnm9",
+        "name" : "liCORE",
+        "symbol": "liCORE",
+        "description": "Liquid staking asset for COREUM, by Pulsara",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/licore.png",
+        "coinGeckoId": "licore",
+        "color": "#FF03CB"
+    },
+    {
+        "type": "native",
+        "denom": "xrpl11278ecf9e-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+        "name" : "Sologenic",
+        "symbol": "SOLO",
+        "description": "Sologenic",
+        "decimals": 15,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/solo.png",
+        "coinGeckoId": "solo-coin"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E1E3674A0E4E1EF9C69646F9AF8D9497173821826074622D831BAB73CCB99A2D",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>coreum",
+            "client" : {
+                "channel": "channel-19",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-49",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv",
+        "name" : "Coreum Community DAO Token",
+        "symbol": "CCD",
+        "description": "Rewards token designed to incentivize participation in Coreum Community DAO",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "xrpl570c00a604-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+        "name" : "RLUSD",
+        "symbol": "RLUSD",
+        "description": "RLUSD bridged from XRPL",
+        "decimals": 15,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/rlusd.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "upunks-core1zceldt0z76n3cje52fps53lh6ejlxqcnu4fgexl3vyj688nx3f0sgm7xaa",
+        "name" : "Coreum",
+        "symbol": "PUNKS",
+        "description": "Trade $PUNKS, the utility token of the official Coreum Punks NFT Collection.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "usbc-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x",
+        "name" : "Coreum",
+        "symbol": "SBC",
+        "description": "SBC is a regulated, fiat-backed stablecoin issued by Brale and redeemable 1:1 for U.S. Dollars",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/sbc.png",
+        "coinGeckoId": ""
+    }
+]

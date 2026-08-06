@@ -1,0 +1,69 @@
+{
+    "chain_id_cosmos" : "xion-testnet-2",
+    "chain_name": "Verona Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion-testnet/resource/chain_verona-testnet.png",
+    "staking_asset_denom" : "uxion",
+    "staking_asset_symbol" : "VERONA",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion-testnet/asset/verona.png",
+    "bech_account_prefix" : "xion",
+    "bech_validator_prefix" : "xionvaloper",
+    "origin_genesis_time" : "2025-01-28T16:00:00Z",
+    "api_name" : "xion-testnet",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0uxion,0ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Xion",
+            "url": "https://api.xion-testnet-2.burnt.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://xion-testnet-api.polkachu.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/verona-testnet/",
+        "account": "https://www.mintscan.io/verona-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/verona-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/verona-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://xion.burnt.com/",
+        "docs": "https://docs.burnt.com/xion",
+        "github" : "https://github.com/burnt-labs",
+        "blog" : "https://xion.burnt.com/blog",
+        "twitter" : "https://twitter.com/burnt_xion",
+        "telegram" : "https://t.me/xion_announcements",
+        "discord" : "https://discord.com/invite/burnt",
+        "coingecko" : "https://www.coingecko.com/en/coins/xion"
+    },
+    "description" : {
+        "ko" : "Verona는 AI를 위한 인텔리전스 레이어입니다. 사용자가 검증한 데이터를 이동 가능하고 비공개이며 프로그래밍 가능하게 만들어, 에이전트가 사용자가 실제로 소유한 정보를 바탕으로 거래할 수 있도록 합니다.",
+        "en" : "Verona is the intelligence layer for AI. It makes user-verified data portable, private, and programmable, so agents can transact on information the user actually owns.",
+        "ja" : "Veronaは、AIのためのインテリジェンスレイヤーです。ユーザーが検証したデータをポータブル・プライベート・プログラム可能にすることで、エージェントがユーザー自身が所有する情報を基に取引できるようにします。"
+    }
+}

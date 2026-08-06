@@ -1,0 +1,76 @@
+[
+    {
+        "name": "IBC Eureka (Skip)",
+        "type": "IBC, Swap",
+        "description": "IBC Eureka, launched by Cosmos’ Interchain Labs, enables secure and transparent connections between blockchains—marking a key step toward building a decentralized internet.",
+        "status": "open",
+        "thumbnail" : "eureka",
+        "link": "https://go.cosmos.network/",
+        "social": {
+            "webSite": "https://www.skip.build/",
+            "twitter": "https://x.com/SkipProtocol",
+            "github": "https://github.com/skip-mev",
+            "docs": "https://docs.skip.build/go"
+        }
+    },
+    {
+        "name": "Skip Go",
+        "type": "DeFi",
+        "description": "Provides MEV solutions for Cosmos and Evm blockchains, enabling revenue generation through block space auctions and transaction prioritization.",
+        "status": "open",
+        "thumbnail" : "skip",
+        "link": "https://go.skip.build/",
+        "social": {
+            "webSite": "https://www.skip.build/",
+            "twitter": "https://x.com/SkipProtocol",
+            "github": "https://github.com/skip-mev",
+            "docs": "https://docs.skip.build/go"
+        }
+    },
+    {
+        "name": "Squid Router",
+        "type": "Defi",
+        "description": "Squid lets you swap tokens between blockchains, and unlocks access to apps across chains in 1 click ✨ EVM + Cosmos.",
+        "status": "open",
+        "thumbnail" : "squid",
+        "link": "https://app.squidrouter.com",
+        "social": {
+            "webSite": "https://app.squidrouter.com",
+            "twitter": "https://twitter.com/squidrouter"
+        }
+    },
+    {
+        "name": "Citizen Web3",
+        "type": "Staking",
+        "description": "Privacy-focused, self-hosted bare-metal validator with off-grid capabilities. Provides public RPC, REST API, GRPC endpoints and archive nodes.",
+        "status": "open",
+        "thumbnail": "citizenweb3",
+        "link": "https://staking.citizenweb3.com/chains/cosmoshub",
+        "social": {
+            "webSite": "https://citizenweb3.com/",
+            "twitter": "https://x.com/citizen_web3",
+            "github": "https://github.com/citizenweb3"
+        }
+    },
+    {
+	    "name": "Validatorinfo",
+	    "type": "Explorer",
+	    "description": "Multichain explorer",
+	    "status": "open",
+	    "thumbnail" : "validatorinfo",
+	    "link": "https://validatorinfo.com/networks/cosmoshub/overview"
+	},
+	{
+        "name": "ATOM Circuit",
+        "type": "IBC, Swap, Staking",
+        "description": "Swap fees buy ATOM. Staked forever. Creates continuous buy pressure.",
+        "status": "open",
+        "thumbnail": "atomcircuit",
+        "link": "https://atomcircuit.net",
+        "social": {
+            "webSite": "https://cosmosrescue.com",
+            "twitter": "https://x.com/cosmosrescue",
+            "docs": "https://docs.atomcircuit.net"
+        }
+    }
+]

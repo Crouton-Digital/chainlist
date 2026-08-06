@@ -1,0 +1,85 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x60E1773636CF5E4A227d9AC24F20fEca034ee25A",
+        "name": "Wrapped FIL",
+        "symbol": "WFIL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/wfil.png",
+        "coinGeckoId": "wrapped-fil",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+        "name": "Axelar Wrapped USDC",
+        "symbol": "USDC.axl",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
+        "name": "Axelar Wrapped USDT",
+        "symbol": "USDT.axl",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/usdt.png",
+        "coinGeckoId": "axelar-usdt",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+        "name": "Axelar",
+        "symbol": "AXL",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/axl.png",
+        "coinGeckoId": "axelar"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5C7e299CF531eb66f2A1dF637d37AbB78e6200C7",
+        "name": "Axelar Wrapped DAI",
+        "symbol": "DAI.axl",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/dai.png",
+        "coinGeckoId": "dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb829b68f57CC546dA7E5806A929e53bE32a4625D",
+        "name": "Axelar Wrapped ETH",
+        "symbol": "ETH.axl",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/eth.png",
+        "coinGeckoId": "axlweth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad",
+        "name": "Axelar Wrapped WBTC",
+        "symbol": "WBTC.axl",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/wbtc.png",
+        "coinGeckoId": "axlwbtc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x88DfaAABaf06f3a41D2606EA98BC8edA109AbeBb",
+        "name": "Axelar Wrapped WMAI",
+        "symbol": "WMAI.axl",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/wmai.png",
+        "coinGeckoId": ""
+    }
+]

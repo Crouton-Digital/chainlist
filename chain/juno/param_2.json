@@ -1,0 +1,90 @@
+{
+    "chain_id_cosmos" : "juno-1",
+    "chain_name": "Juno",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/resource/chain_juno.png",
+    "staking_asset_denom" : "ujuno",
+    "staking_asset_symbol" : "JUNO",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+    "bech_account_prefix" : "juno",
+    "bech_validator_prefix" : "junovaloper",
+    "origin_genesis_time" : "2021-10-01T15:00:00Z",
+    "api_name" : "juno",
+    "is_support_cw20" : true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.075ujuno,0.003ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+            "0.1ujuno,0.004ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+            "0.125ujuno,0.005ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cogwheel",
+            "url": "juno-grpc.cogwheel.zone:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Publicnode",
+            "url": "https://juno-rest.publicnode.com/"
+        },
+        {
+            "provider": "Stake&Relax Validator 🦥",
+            "url": "https://juno-api.stakeandrelax.net/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://juno.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://juno-api.polkachu.com/"
+        },
+        {
+            "provider": "Pocket Network",
+            "url": "https://juno.api.pocket.network/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://ping.pub/juno",
+        "account": "https://ping.pub/juno/account/${address}",
+        "tx": "https://ping.pub/juno/tx/${hash}",
+        "proposal": "https://ping.pub/juno/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://junonetwork.io/",
+        "docs": "https://docs.junonetwork.io/juno/readme",
+        "github" : "https://github.com/CosmosContracts",
+        "blog" : "https://medium.com/@JunoNetwork",
+        "medium": "https://medium.com/@JunoNetwork",
+        "twitter" : "https://twitter.com/JunoNetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/juno-network"
+    },
+    "forum": {
+        "main": "https://commonwealth.im/juno",
+        "governance": "https://commonwealth.im/juno/discussions/Draft%20Proposals"
+    },
+    "description" : {
+        "ko" : "Cosmos SDK 기반의 상호 운용 가능한 스마트 컨트랙트 네트워크. 확장성, 속도, 보안, 그리고 유저 친화적인 개발환경을 제공합니다.",
+        "en" : "Interoperable smart contract network built with the Cosmos SDK. Highly scalable, robust, secure and easy to deploy.",
+        "ja" : "Cosmos SDKベースの相互運用可能なスマートコントラクトネットワーク。拡張性、速度、保安、そしてユーザー親和的な開発環境を提供します。"
+    }
+}

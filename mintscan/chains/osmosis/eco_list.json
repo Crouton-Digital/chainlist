@@ -85,14 +85,6 @@
     "link": "https://trade.levana.finance/"
   },
   {
-    "name": "Mars Red Bank",
-    "type": "Lending",
-    "description": "Lend and borrow money with the Osmosis Blockchain.",
-    "status": "open",
-    "thumbnail" : "marsredbank",
-    "link": "https://app.marsprotocol.io/"
-  },
-  {
     "name": "IBCX",
     "type": "Defi",
     "description": "$IBCX is a Cosmos index token designed to benchmark the leading Cosmos tokens’ performance.",
@@ -115,14 +107,6 @@
     "status": "open",
     "thumbnail" : "tfmprotrading",
     "link": "https://tfm.com/osmosis/trade/protrade/"
-  },
-  {
-    "name": "Mars Farm",
-    "type": "Defi",
-    "description": "Farm the fields of Mars. Leveraged yield farming on top of Apollo auto compounding vaults!",
-    "status": "open",
-    "thumbnail" : "marsfarm",
-    "link": "https://app.marsprotocol.io/"
   },
   {
     "name": "Kado",
@@ -157,14 +141,6 @@
     "link": "https://www.icns.xyz/"
   },
   {
-    "name": "Yieldmos",
-    "type": "Defi",
-    "description": "Boost yields by auto compounding your staking and LP rewards with validators of your choice.",
-    "status": "open",
-    "thumbnail" : "yieldmos",
-    "link": "https://www.yieldmos.com/chain/osmosis"
-  },
-  {
     "name": "ION DAO",
     "type": "Defi",
     "description": "Decentralized autonomous organization for community governance",
@@ -187,5 +163,38 @@
     "status": "open",
     "thumbnail" : "marginedprotocol",
     "link": "https://trade.margined.io"
+  },
+  {
+    "name": "Portal Bridge",
+    "type": "Bridge",
+    "description": "Portal Bridge is a cross-chain bridge powered by Wormhole that enables seamless transfer of assets across multiple blockchains.",
+    "status": "open",
+    "thumbnail" : "portal",
+    "link": "https://portalbridge.com/cosmos/",
+    "social": {
+      "twitter": "https://x.com/portalbridge_",
+      "discord": "https://discord.com/invite/jRZaJvCZjv"
+    }
+  },
+  {
+    "name": "Citizen Web3",
+    "type": "Services",
+    "description": "Privacy-focused, self-hosted bare-metal validator with off-grid capabilities. Provides public RPC, REST API, GRPC endpoints.",
+    "status": "open",
+    "thumbnail": "citizenweb3",
+    "link": "https://staking.citizenweb3.com/chains/osmosis",
+    "social": {
+      "webSite": "https://citizenweb3.com/",
+      "twitter": "https://x.com/citizen_web3",
+      "github": "https://github.com/citizenweb3"
+    }
+  },
+  {
+    "name": "Validatorinfo",
+    "type": "Explorer",
+    "description": "Multichain explorer",
+    "status": "open",
+    "thumbnail" : "validatorinfo",
+    "link": "https://validatorinfo.com/networks/osmosis/overview"
   }
 ]

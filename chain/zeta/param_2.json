@@ -1,0 +1,103 @@
+{
+    "chain_id_cosmos" : "zetachain_7000-1",
+    "chain_id_evm" : "0x1b58",
+    "chain_name": "ZetaChain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/resource/chain_zeta.png",
+    "staking_asset_denom" : "azeta",
+    "staking_asset_symbol" : "ZETA",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/zeta.png",
+    "bech_account_prefix" : "zeta",
+    "bech_validator_prefix" : "zetavaloper",
+    "origin_genesis_time" : "2023-10-19T10:00:00Z",
+    "api_name" : "zeta",
+    "is_support_erc20" : true,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "10000000000azeta"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": true,
+        "multicall_address" : "0xcA11bde05977b3631167028862bE2a173976CA11"
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "BlockPI",
+            "url": "https://zetachain.blockpi.network/lcd/v1/public/"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "url": "https://zetachain-api.noders.services/"
+        },
+        {
+            "provider": "Nodes Hub",
+            "url": "https://zetachain.api.nodeshub.online/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Allthatnode",
+            "url": "https://zetachain-mainnet.g.allthatnode.com/archive/evm"
+        },
+        {
+            "provider": "Blockpi",
+            "url": "https://zetachain-evm.blockpi.network/v1/rpc/public"
+        },
+        {
+            "provider": "drpc",
+            "url": "https://zeta-chain.drpc.org "
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/zeta/",
+        "account": "https://www.mintscan.io/zeta/address/${address}",
+        "tx": "https://www.mintscan.io/zeta/tx/${hash}",
+        "proposal": "https://www.mintscan.io/zeta/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.zetachain.com/",
+        "docs": "https://www.zetachain.com/docs/",
+        "github" : "https://github.com/zeta-chain",
+        "blog" : "https://www.zetachain.com/blog",
+        "reddit" : "https://www.reddit.com/r/zetablockchain/",
+        "youtube" : "https://www.youtube.com/@ZetaBlockchain",
+        "twitter" : "https://twitter.com/zetablockchain",
+        "telegram" : "https://t.me/zetachainofficial",
+        "discord" : "https://discord.com/invite/zetachain",
+        "coingecko" : "https://www.coingecko.com/en/coins/zetachain"
+    },
+    "forum": {
+        "main": "https://governance.zetachain.com/"
+    },
+    "description" : {
+        "ko" : "ZetaChain은 다양한 블록체인 간의 스마트 계약과 메시징을 지원하는 공공 블록체인입니다. 크로스체인 및 멀티체인 문제를 해결하여 결제, DeFi, 게임 등 여러 블록체인의 혜택을 누릴 수 있게 합니다.",
+        "en" : "ZetaChain is the foundational, public blockchain that enables omnichain smart contracts and messaging between any blockchain. It solves the problems of “cross-chain” and “multi-chain” and aims to open the crypto and global financial ecosystem to anyone.",
+        "ja" : "ZetaChainは、異なるブロックチェーン間でのスマートコントラクトとメッセージングをサポートするパブリックブロックチェーンです。「クロスチェーン」および「マルチチェーン」の問題を解決し、決済やDeFi、ゲームなど、さまざまなブロックチェーンの利点を享受できます。"
+    }
+}

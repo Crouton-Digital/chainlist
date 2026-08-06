@@ -1,0 +1,63 @@
+{
+    "chain_id_cosmos" : "pio-mainnet-1",
+    "chain_name": "Provenance",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/provenance/resource/chain_provenance.png",
+    "staking_asset_denom" : "nhash",
+    "staking_asset_symbol" : "HASH",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/provenance/asset/hash.png",
+    "bech_account_prefix" : "pb",
+    "bech_validator_prefix" : "pbvaloper",
+    "origin_genesis_time" : "2021-04-20T16:20:00Z",
+    "api_name" : "provenance",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "is_support_mintscan": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/505'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "1nhash"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 5000000000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://provenance.api.m.stavr.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/provenance/",
+        "account": "https://www.mintscan.io/provenance/address/${address}",
+        "tx": "https://www.mintscan.io/provenance/tx/${hash}",
+        "proposal": "https://www.mintscan.io/provenance/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.provenance.io/",
+        "docs": "https://docs.provenance.io",
+        "github" : "https://github.com/provenance-io",
+        "medium": "https://medium.com/provenanceblockchain",
+        "twitter" : "https://twitter.com/provenancefdn",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "금융 서비스 산업의 블록체인 기술 도입을 위해 설계된 텐더민트 기반 블록체인입니다.",
+        "en" : "Provenance is a Tendermint-based blockchain network utilized by $HASH, designed to support financial service industry.",
+        "ja" : "金融サービス業界のブロックチェーン技術導入のため設計された、テンダーミントベースのブロックチェーンです。"
+    }
+}

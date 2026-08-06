@@ -1,0 +1,61 @@
+{
+    "chain_id_cosmos" : "omniflixhub-1",
+    "chain_name": "Omniflix",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/omniflix/resource/chain_omniflix.png",
+    "staking_asset_denom" : "uflix",
+    "staking_asset_symbol" : "FLIX",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/omniflix/asset/flix.png",
+    "bech_account_prefix" : "omniflix",
+    "bech_validator_prefix" : "omniflixvaloper",
+    "origin_genesis_time" : "2022-02-22T07:00:00Z",
+    "api_name" : "omniflix",
+    "is_support_mobile_wallet": false,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.01uflix"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+    ],
+    "explorer" : {
+        "name": "Explorers Guru",
+        "url": "https://omniflix.explorers.guru/",
+        "account": "https://omniflix.explorers.guru/account/${address}",
+        "tx": "https://omniflix.explorers.guru/transaction/${hash}",
+        "proposal": "https://omniflix.explorers.guru/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://www.omniflix.network/",
+        "docs": "https://docs.omniflix.network",
+        "github" : "https://github.com/OmniFlix",
+        "blog" : "https://blog.omniflix.network/",
+        "twitter" : "https://twitter.com/OmniFlixNetwork",
+        "discord" : "https://discord.com/invite/6gdQ4yZSTC",
+        "coingecko" : "https://www.coingecko.com/en/coins/omniflix-network"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/omniflix"
+    },
+    "description" : {
+        "ko" : "NFT 창작자들과 커뮤니티에게 탈중앙화된 미디어 플랫폼을 제공하는 블록체인 프로젝트.",
+        "en" : "OmniFlix Network is a blockchain specifically designed for creators and communities, powered by NFTs.",
+        "ja" : "NFTクリエイターやコミュニティに脱中央化されたミディアプラットフォームを提供するブロックチェーンプロジェクト。"
+    }
+}

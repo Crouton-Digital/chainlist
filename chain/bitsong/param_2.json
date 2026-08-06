@@ -1,0 +1,83 @@
+{
+    "chain_id_cosmos" : "bitsong-2b",
+    "chain_name": "Bitsong",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/resource/chain_bitsong.png",
+    "staking_asset_denom" : "ubtsg",
+    "staking_asset_symbol" : "BTSG",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/asset/btsg.png",
+    "bech_account_prefix" : "bitsong",
+    "bech_validator_prefix" : "bitsongvaloper",
+    "origin_genesis_time" : "2021-03-26T20:00:00Z",
+    "api_name" : "bitsong",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/639'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.01ubtsg",
+            "0.025ubtsg"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "stake.systems",
+            "url": "https://lcd.explorebitsong.com/"
+        },
+        {
+            "provider": "🐹 Quokka Stake",
+            "url": "https://api.bitsong.quokkastake.io/"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "https://bitsong.tdrsys.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://bitsong-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://bitsong.api.m.stavr.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://ping.pub/bitsong/",
+        "account": "https://ping.pub/bitsong/account/${address}",
+        "tx": "https://ping.pub/bitsong/tx/${hash}",
+        "proposal": "https://ping.pub/bitsong/gov/${id}"
+    },
+    "about" : {
+        "website" : "http://bitsong.io/",
+        "docs": "https://docs.bitsong.io",
+        "github" : "https://github.com/BitSongOfficial",
+        "blog" : "https://bitsongofficial.medium.com/",
+        "medium": "https://bitsongofficial.medium.com",
+        "twitter" : "https://twitter.com/BitSongOfficial",
+        "coingecko" : "https://www.coingecko.com/en/coins/bitsong"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/bitsong"
+    },
+    "description" : {
+        "ko" : "Cosmos SDK 기반 블록체인으로서 음악산업 내 아티스트와 팬, 음원 공급사를 연결해주는 탈중앙화 플랫폼입니다.",
+        "en" : "CA decentralized blockchain hub that provides a trustless marketplace for the music industry.",
+        "ja" : "Cosmos SDKベースブロックチエーンとして音楽産業内のアーティストとファン、音源サプライヤーをつなげる分散型プラットフォーム。"
+    }
+}

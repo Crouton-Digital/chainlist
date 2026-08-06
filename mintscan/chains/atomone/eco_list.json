@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Gov Atomone",
+        "type": "Governance",
+        "description": "Atomone governance platform.",
+        "status": "open",
+        "thumbnail": "atomone",
+        "link": "https://gov.atom.one/",
+        "social": {
+            "webSite": "https://gov.atom.one/"
+        }
+    },
+    {
+        "name": "Staking Atomone",
+        "type": "Staking",
+        "description": "Atomone Staking platform.",
+        "status": "open",
+        "thumbnail": "atomone_staking_portal",
+        "link": "https://staking.atom.one/",
+        "social": {
+            "webSite": "https://staking.atom.one/"
+        }
+    },
+    {
+        "name": "Citizen Web3",
+        "type": "Services",
+        "description": "Privacy-focused, self-hosted bare-metal validator with off-grid capabilities. Provides public RPC, REST API, GRPC endpoints and archive nodes.",
+        "status": "open",
+        "thumbnail": "citizenweb3",
+        "link": "https://staking.citizenweb3.com/chains/atomone",
+        "social": {
+            "webSite": "https://citizenweb3.com/",
+            "twitter": "https://x.com/citizen_web3",
+            "github": "https://github.com/citizenweb3"
+        }
+    },
+    {
+        "name": "Validatorinfo",
+        "type": "Explorer",
+        "description": "Multichain explorer",
+        "status": "open",
+        "thumbnail" : "validatorinfo",
+        "link": "https://validatorinfo.com/networks/atomone/overview"
+    }
+]

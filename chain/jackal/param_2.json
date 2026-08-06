@@ -1,0 +1,73 @@
+{
+    "chain_id_cosmos" : "jackal-1",
+    "chain_name": "Jackal",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/jackal/resource/chain_jackal.png",
+    "staking_asset_denom" : "ujkl",
+    "staking_asset_symbol" : "JKL",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/jackal/asset/jkl.png",
+    "bech_account_prefix" : "jkl",
+    "bech_validator_prefix" : "jklvaloper",
+    "origin_genesis_time" : "2022-10-26T22:00:00Z",
+    "api_name" : "jackal",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.002ujkl",
+            "0.02ujkl"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "NodeStake",
+            "url": "grpc.jackal.nodestake.org:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "jackal-grpc.polkachu.com:17590"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://jkl.api.m.stavr.tech/"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.jackal.nodestake.org/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://ping.pub/jackal",
+        "account": "https://ping.pub/jackal/account/${address}",
+        "tx": "https://ping.pub/jackal/tx/${hash}",
+        "proposal": "https://ping.pub/jackal/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://jackalprotocol.com/",
+        "blog" : "https://www.jackalprotocol.com/blog",
+        "github" : "https://github.com/JackalLabs",
+        "twitter" : "https://twitter.com/Jackal_Protocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/jackal-protocol"
+    },
+    "description" : {
+        "ko" : "Jackal 프로토콜은 안전하고 확장 가능한 클라우드 데이터 스토리지를 위한 분산형 인프라를 제공합니다.",
+        "en" : "The Jackal Protocol provides a decentralized infrastructure for secure and scalable cloud-data storage.",
+        "ja" : "Jackal プロトコルは、安全でスケーラブルなクラウド データ ストレージのための分散型インフラストラクチャを提供します。"
+    }
+}

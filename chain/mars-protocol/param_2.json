@@ -1,0 +1,63 @@
+{
+    "chain_id_cosmos" : "mars-1",
+    "chain_name": "Mars Protocol",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mars-protocol/resource/chain_mars-protocol.png",
+    "staking_asset_denom" : "umars",
+    "staking_asset_symbol" : "MARS",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mars-protocol/asset/mars.png",
+    "bech_account_prefix" : "mars",
+    "bech_validator_prefix" : "marsvaloper",
+    "origin_genesis_time" : "2023-01-31T15:00:00Z",
+    "api_name" : "mars-protocol",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0umars"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+    ],
+    "explorer" : {
+        "name": "Pingpub",
+        "url": "https://ping.pub/mars",
+        "account": "https://ping.pub/mars/account/${address}",
+        "tx": "https://ping.pub/mars/tx/${hash}",
+        "proposal": "https://ping.pub/mars/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://marsprotocol.io/",
+        "docs": "https://docs.marsprotocol.io/mars-protocol/",
+        "github" : "https://github.com/mars-protocol",
+        "blog" : "https://blog.marsprotocol.io/",
+        "medium": "https://mars-protocol.medium.com/",
+        "twitter" : "https://twitter.com/mars_protocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/mars-protocol"
+    },
+    "forum": {
+        "main": "https://forum.marsprotocol.io/",
+        "governance": "https://forum.marsprotocol.io/c/proposals/5"
+    },
+    "description" : {
+        "ko" : "Mars Hub는 Interchain 생태계 전반에 걸쳐 배포될 Mars Protocol의 다양한 디파이 앱들의 관리 및 운영을 위해 설계된 블록체인입니다.",
+        "en" : "Mars Hub is the governing app-chain that administers Mars Protocol’s various DeFi outposts across the Interchain ecosystem.",
+        "ja" : "Mars HubはInterchain生態系全般にわたって配布されるMars Protocolの多様なDeFiアプリの管理および運営のために設計されたブロックチェーンです。"
+    }
+}

@@ -1,0 +1,265 @@
+[
+    {
+        "type": "native",
+        "denom": "aarch",
+        "name" : "Archway",
+        "symbol": "ARCH",
+        "description": "Archway Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/arch.png",
+        "coinGeckoId": "archway",
+        "color": "#FF8F69"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C0E66D1C81D8AAF0E6896E05190FDFBC222367148F86AC3EA679C28327A763CD",
+        "name" : "Axelar",
+        "symbol": "AXL",
+        "description": "Axelar Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+        "coinGeckoId": "axelar",
+        "ibc_info" : {
+            "path": "axelar>archway",
+            "client" : {
+                "channel": "channel-13",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-111",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uaxl"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>archway",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-623",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>archway",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1429",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E21808AEBCB7E02F594897100186C126E3BC9A36B0974196AF116750A4573F06",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>archway",
+            "client" : {
+                "channel": "channel-13",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-111",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/43897B9739BD63E3A08A88191999C632E052724AB96BD4C74AE31375C991F48D",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>archway",
+            "client" : {
+                "channel": "channel-29",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-12",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58",
+        "name" : "CULT",
+        "symbol": "CULT",
+        "description": "CULT - Less Brainwashing, More Utility",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/cult.png",
+        "ibc_info" : {
+            "path": "osmosis>archway",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1429",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B68560022FB3CAD599224B16AAEB62FB85848A7674E40B68A0F1982F270B356E",
+        "name" : "Celestia",
+        "symbol": "TIA",
+        "description": "Celestia Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+        "coinGeckoId": "celestia",
+        "ibc_info" : {
+            "path": "celestia>archway",
+            "client" : {
+                "channel": "channel-100",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-24",
+                "port": "transfer",
+                "chain": "celestia",
+                "denom": "utia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9428981CEA5DA704D99DD51AAB2EC62359178392B667138CD4480B3F6585E71C",
+        "name" : "Injective",
+        "symbol": "INJ",
+        "description": "Injective Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+        "coinGeckoId": "injective-protocol",
+        "ibc_info" : {
+            "path": "injective>archway",
+            "client" : {
+                "channel": "channel-102",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-211",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "inj"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C2CFB1C37C146CF95B0784FD518F8030FEFC76C5800105B1742FB65FFE65F873",
+        "name" : "Akash Network",
+        "symbol": "AKT",
+        "description": "Akash Network Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+        "coinGeckoId": "akash-network",
+        "ibc_info" : {
+            "path": "akash>archway",
+            "client" : {
+                "channel": "channel-104",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-126",
+                "port": "transfer",
+                "chain": "akash",
+                "denom": "uakt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/CF57A83CED6CEC7D706631B5DC53ABC21B7EDA7DF7490732B4361E6D5DD19C73",
+        "name" : "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "ibc_info" : {
+            "path": "osmosis>archway",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1429",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/13C5990F84FA5D472E1F8BB1BAAEA8774DA5F24128EC02B119107AD21FB52A61",
+        "name" : "Wrapped Ether (Ethereum via Axelar)",
+        "symbol": "WETH.axl",
+        "description": "Wrapped Ether on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "axlweth",
+        "ibc_info" : {
+            "path": "ethereum>axelar>archway",
+            "client" : {
+                "channel": "channel-13",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-111",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "weth-wei"
+            }
+        }
+    }
+]

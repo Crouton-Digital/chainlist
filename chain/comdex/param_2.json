@@ -1,0 +1,64 @@
+{
+    "chain_id_cosmos": "comdex-1",
+    "chain_name": "Comdex",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/resource/chain_comdex.png",
+    "staking_asset_denom" : "ucmdx",
+    "staking_asset_symbol" : "CMDX",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/asset/cmdx.png",
+    "bech_account_prefix" : "comdex",
+    "bech_validator_prefix" : "comdexvaloper",
+    "origin_genesis_time" : "2021-11-20T14:00:00Z",
+    "api_name" : "comdex",
+    "is_support_mobile_wallet": false,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "2ucmdx",
+            "3ucmdx"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://explorer.comdex.one/comdex-1",
+        "account": "https://explorer.comdex.one/comdex-1/account/${address}",
+        "tx": "https://explorer.comdex.one/comdex-1/tx/${hash}",
+        "proposal": "https://explorer.comdex.one/comdex-1/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://comdex.one/",
+        "docs": "https://docs.comdex.one",
+        "github" : "https://github.com/comdex-official",
+        "blog" : "https://blog.comdex.one/",
+        "medium": "https://blog.comdex.one",
+        "twitter" : "https://twitter.com/ComdexOfficial",
+        "coingecko" : "https://www.coingecko.com/en/coins/comdex"
+    },
+    "forum": {
+        "main": "https://forum.comdex.one",
+        "governance": "https://forum.comdex.one/c/comdex-discussion"
+    },
+    "description" : {
+        "ko" : "Comdex는 인터체인 DeFi를 위한 인프라 레이어입니다.",
+        "en" : "Comdex is an interchain DeFi infrastructure layer housing a suite of composable solutions on-chain.",
+        "ja" : "ComdexはインターチェーンDeFiのためのインフラストラクチャレイヤです。"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "chain_id_cosmos": "dyson-mainnet-01",
+    "chain_name": "Dyson Protocol",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dyson-protocol/resource/chain_dyson-protocol.png",
+    "staking_asset_denom": "dys",
+    "staking_asset_symbol": "DYS",
+    "lcd_endpoint": [
+        {
+            "provider": "dysonprotocol",
+            "url": "https://dys-api.dysonprotocol.com:443/"
+        },
+        {
+            "provider": "cogwheel",
+            "url": "https://dyson-api.cogwheel.zone:443/"
+        }
+    ]
+}

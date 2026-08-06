@@ -1,0 +1,74 @@
+{
+    "chain_id_cosmos" : "coreum-mainnet-1",
+    "chain_name": "TX",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/resource/chain_coreum.png",
+    "staking_asset_denom" : "ucore",
+    "staking_asset_symbol" : "TX",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/tx.png",
+    "bech_account_prefix" : "core",
+    "bech_validator_prefix" : "corevaloper",
+    "origin_genesis_time" : "2023-03-12T00:00:00Z",
+    "api_name" : "coreum",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/990'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.05ucore",
+            "0.0625ucore",
+            "0.5ucore"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://coreum.ibs.team:443/api/"
+        },
+        {
+            "provider": "Stakewolle",
+            "url": "https://public.stakewolle.com/cosmos/coreum/rest/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-coreum.ecostake.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/coreum/",
+        "account": "https://www.mintscan.io/coreum/address/${address}",
+        "tx": "https://www.mintscan.io/coreum/tx/${hash}",
+        "proposal": "https://www.mintscan.io/coreum/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://tx.org/",
+        "docs": "https://docs.tx.org/",
+        "github" : "https://github.com/tokenize-x",
+        "blog" : "https://medium.com/@txEcosystem",
+        "twitter" : "https://x.com/txEcosystem",
+        "coingecko" : "https://www.coingecko.com/en/coins/tx"
+    },
+    "description" : {
+        "ko" : "TX는 TX 블록체인의 네이티브 유틸리티 토큰으로, 네트워크 내에서 거래 수수료 지불, 스테이킹, 거버넌스에 사용됩니다. 이 토큰은 모든 온체인 활동을 구동하며, Bonded Proof of Stake 메커니즘을 통해 생태계의 보안을 유지합니다.",
+        "en" : "TX is the native utility token of the TX blockchain, used for transaction fees, staking, and governance within the network. It powers all on-chain activities and secures the ecosystem through its Bonded Proof of Stake mechanism.",
+        "ja" : "TXはTXブロックチェーンのネイティブユーティリティトークンであり、ネットワーク内での取引手数料の支払い、ステーキング、ガバナンスに使用されます。 TXはすべてのオンチェーン活動を支え、Bonded Proof of Stake メカニズムによってエコシステムのセキュリティを維持します。"
+    }
+}
